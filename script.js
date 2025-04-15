@@ -51,6 +51,13 @@ function calculator(buttonValue) {
     return;
   }
 
+  if (buttonValue === ".") {
+    const lastNumber = currentOperation.split(/[\+\-\*\/]/).pop();
+    if (lastNumber.includes(".")) {
+      return;
+    }
+  }
+
   currentOperation += buttonValue;
   operationDisplay.textContent = currentOperation;
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <header>
+          <img src="./assets/images/header.png" alt="" id="background-image" />
+
+          <div class="dark-light-mode" id="mode-toggle">
+            <img
+              src="./assets/icons/SunDim.svg"
+              alt="Ícone de sol que indica o modo claro"
+              id="mode-icon"
+            />
+            <p id="mode-text">light mode</p>
+          </div>
+
+          <div class="screen-content">
+            <img
+              src="./assets/images/space-girl.png"
+              alt="Ilustração de uma garota com capacete de astronauta, 
+            blusa azul claro, calça cinza e sapato rosa, segurando um notebook."
+            />
+
+            <div class="operation-result">
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </header>
+
+        <section class="calculator-keyboard">
+          <div class="first-row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+          </div>
+
+          <div class="second-row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+          </div>
+
+          <div class="third-row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>*</button>
+          </div>
+
+          <div class="fourth-row">
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+            <button>/</button>
+          </div>
+
+          <div class="fifth-row">
+            <button>Clear</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

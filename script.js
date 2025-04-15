@@ -32,6 +32,8 @@ const buttons = document.querySelectorAll(".calculator-keyboard button");
 
 let currentOperation = "";
 
+const operators = ["+", "-", "*", "/"];
+
 function calculator(buttonValue) {
   if (buttonValue === "Clear") {
     currentOperation = "";
@@ -54,6 +56,18 @@ function calculator(buttonValue) {
   if (buttonValue === ".") {
     const lastNumber = currentOperation.split(/[\+\-\*\/]/).pop();
     if (lastNumber.includes(".")) {
+      return;
+    }
+  }
+
+  const lastCharacters = currentOperation.slice(-1);
+  const isLastCharactersOperator = operators.includes(lastCharacters);
+  const isCurrentCharactersOperator = operators.includes(buttonValue);
+
+  if (isCurrentCharactersOperator) {
+    if (currentOperation === "" && buttonValue !== "-") {
+      return;
+    } else if (isLastCharactersOperator) {
       return;
     }
   }

@@ -170,3 +170,30 @@ body.dark .calculator .calculator-keyboard button:last-child {
 body.dark .calculator .calculator-keyboard .fifth-row button {
   background-color: var(--dark-indigo-500);
 }
+
+@media (max-width: 768px) {
+  .calculator {
+    width: 22.75rem;
+  }
+
+  #background-image {
+    height: 15.34rem;
+  }
+  .screen-content img {
+    height: 13rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .calculator {
+    width: 20rem;
+    height: 38rem;
+  }
+
+  #background-image {
+    height: 13.5rem;
+  }
+  .screen-content img {
+    height: 11rem;
+  }
+}

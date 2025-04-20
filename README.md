@@ -1,5 +1,7 @@
 ## Desafio: Calculadora com HTML, CSS e JavaScript
 
+<img src="./assets/images/thumbnail.png">
+
 Bem-vindo(a) ao repositório oficial do Desafio Calculadora com JavaScript!
 Este é um projeto prático ideal para quem está começando e quer colocar os conhecimentos de JavaScript, HTML e CSS em ação 🚀
 

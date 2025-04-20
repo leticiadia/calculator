@@ -48,10 +48,12 @@ Você pode visualizar e utilizar o layout base do projeto clicando no link abaix
 
 Queremos muito ver o que você criou!
 
-Publique nas suas redes sociais com a hashtag #TechknowledgeChallenge e marque a gente! 🚀
+Publique nas suas redes sociais com a hashtag **#TechknowledgeChallenge** e marque a gente!
 Ou, se preferir, compartilhe seu repositório para receber feedback de outros devs.
 
-Avante 👨‍💻 👩‍💻 🚀
+Avante 👨‍💻🚀
 Esse é só o começo. Em breve, mais desafios virão! 💜
 
-Feito com 💻 por Leticia Dias
+### 👩‍💻 Autor
+
+**Feito com 💻 por Leticia Dias**
